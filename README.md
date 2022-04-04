@@ -14,3 +14,5 @@ Contians Flask Python code to receive OpenID requests from Wargaming. It uses Fl
 You can do so by typing `python -m pip install module_name`
 
 ### Then you are all set!
+
+This project was inteandent to be used for applications that require Wargaming account authentication access token.
