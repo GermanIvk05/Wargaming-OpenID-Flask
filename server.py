@@ -110,10 +110,11 @@ def receive_data() -> str:
 def main() -> None:
     """Contains main code of the program"""
 
-    print(config.LOGIN_URL.format(application_id=config.APPLICATION_ID, redirect_uri=app.config['BASE_URL']))
-
     # Create a Flask instance with port 5000
     app = create_app(5000)
+    
+    # Print out the url to the wargaming authenticaion website
+    print(config.LOGIN_URL.format(application_id=config.APPLICATION_ID, redirect_uri=app.config['BASE_URL']))
 
     # Create a server thread
     server = ServerThread(app)
