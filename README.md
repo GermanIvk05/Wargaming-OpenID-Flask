@@ -8,8 +8,10 @@ Contians Flask Python code to receive OpenID requests from Wargaming. It uses Fl
 
 ### You will need to install these libraries:
 
-1. Flask
-2. pytz
+1. flask
+2. pyngrok
+3. pytz
+4. werzeug
 
 You can do so by typing `python -m pip install module_name`
 
